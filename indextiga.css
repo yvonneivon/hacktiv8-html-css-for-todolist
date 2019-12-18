@@ -201,15 +201,16 @@ textarea {
     width: 100%;
     height: 400px;
     background-color: #88B7C5;
-    border-radius: 10px;   
+    border-radius: 10px;
     font-family: Baloo Bhaina;
     text-align: center;
+
 }
 
 .namahari {
     font-family: Baloo Bhaina;
     color: whitesmoke;
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .kotakhari {
@@ -218,18 +219,19 @@ textarea {
     background-color: #A36666;
     padding: 15px;
     text-align: center;
-    border-radius: 20px;   
+    border-radius: 20px;
 }
 
 .kotakquotes {
     width: 100%;
     height: 25%;
     border-radius: 20px;
-    font-size: 25px;
+    font-size: 18px;
     background-color: #606890;
     font-family: Baloo Bhaina;
     text-align: center;
-    color: whitesmoke
+    color: whitesmoke;
+    margin-bottom: 30;
 }
 
 .kotaksave {
@@ -237,7 +239,7 @@ textarea {
     height: 25%;
     background-color: #dfc453;
     border-radius: 20px;
-    font-size: 25px;
+    font-size: 15px;
     font-family: Baloo Bhaina;
     color: black;
     text-align: center;
@@ -248,6 +250,7 @@ textarea {
     box-shadow: 0 0 #ECD4FF;
     transform: translateY(8px);
 }
-.text{
+
+.text {
     padding: 3px;
 }

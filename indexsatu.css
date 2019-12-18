@@ -173,7 +173,7 @@
 }
 
 body {
-    background: url(https://images.pexels.com/photos/162583/work-workplace-office-computer-162583.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background: url(background1.jpg);
     overflow-x: hidden;
 }
 
@@ -189,7 +189,7 @@ label {
 .kotakatas {
     height: 12.5%;
     width: 100%;
-    background-color: #9DBAD5;
+    background-color: #8FD0CA;
     padding: 10px;
     margin: auto;
     opacity: 80%;
@@ -208,14 +208,14 @@ label {
 }
 
 .kotaktengah2 {
-    background-color: #768ECB;
+    background-color: #8FD0CA;
     height: 100%;
     width: 400px;
     margin: auto;
     border-radius: 10px;
     padding-top: 70px;
     padding-left: 105px;
-    box-shadow: 0px 0px 2px 10px #9DBAD5;
+    box-shadow: 0px 0px 2px 10px #7CAA98;
     opacity: 80%;
 
 }
@@ -223,7 +223,7 @@ label {
 .kotakbawah {
     height: 12.5%;
     width: 100%;
-    background-color: #9DBAD5;
+    background-color: #8FD0CA;
     padding: 10px;
     text-align: center;
     color: black;
