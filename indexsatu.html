@@ -20,21 +20,21 @@
         <div class="col-sm-12 col-md-12 col-lg-12">
             <div class="kotaktengah">
                 <div class="kotaktengah2">
-                    <form method="GET" action="indexdua.html">
+                    <form action="#">
                         <label style="margin-left:60px;" for="username">Name:</label>
                         </br>
-                        <input class="ukuraninput" name="username" type="username" placeholder="Type Your Name" required>
+                        <input id="username" class="ukuraninput" name="username" type="text" placeholder="Type Your Name" maxlength="15" required>
                         </br>
                         </br>
                         <label>To-Do-List Type:</label>
                         </br>
-                        <select class="ukuranselect">
-                            <option value="Daily">Daily To-Do-List</option>
-                            <option value="Weekly">Weekly To-Do-List</option>
+                        <select id="dropdown" class="ukuranselect">
+                            <option value="daily">Daily To-Do-List</option>
+                            <option value="weekly">Weekly To-Do-List</option>
                         </select>
                         </br>
                         </br>
-                        <input class="ukuransubmit" type="submit" value="Let's Go!">
+                        <input class="ukuransubmit" type="button" value="Let's Go!" onclick="letsgo()"> 
                     </form>
                 </div>
             </div>

@@ -14,48 +14,50 @@
             <div class="layer1">
 
                 <div class="row">
+                    <div class="col-sm-12 col-md-12 col-lg-12">
+                        <div class="kotakatas">
+                            <div onclick="previous()" class="kotaktombolatas" style="float: left;">&#8592;PREVIOUS</div>
+                            <div onclick="next()" class="kotaktombolatas" style="float: right;">NEXT&#8594;</div>
+                        </div>
+                    </div>
+                </div>
+
+                </br>
+
+                <div class="row">
                     <div class="col-sm-12 col-md-4 col-lg-4">
-                        <div class="kotakletsstart">Let's Start Your Day, </div>
+                        <div class="kotakletsstart">
+                            <p id="letstart">Let's Start Your Day, </p>
+                        </div>
                         </br>
                         </br>
                         <div class="kotakactivity1">
                             <div class="kotakactivity2">
                                 <form>
-                                    <input class="input" name="type" type="text" placeholder="Your Activity"></form>
+                                    <input id="inputan" class="input" name="type" type="text"
+                                        placeholder="Your Activity"></form>
                             </div>
-                            <center><button class="kotakadd">Add</button></center>
+                            <center><button class="kotakadd" onclick="add()">Add</button></center>
                         </div>
                     </div>
 
                     <div class="col-sm-12 col-md-8 col-lg-8">
-                        <div class="kotakutamakanan">
-                            <div class="kotakactivity3">
+                        <div id="nambahkotak" class="kotakutamakanan">
+                            <!--<div class="kotakactivity3">
                                 <div class="kotakkotak">
                                     <form>
                                         <input class="input" name="type" type="text" placeholder="On Going Activity">
                                     </form>
                                 </div>
-                                <div class="tombol" style="background-color: #FF6961;"></div>
-                                <div class="tombol" style="background-color: #77DD77;"></div>
-                                <div class="tombol" style="background-color: #FDDD5C;"></div>
-                                <span class="timestamp">8.00AM 12/12/12</span>
+                                <div id="tombolmerah" class="tombol" style="background-color: #FF6961;"></div>
+                                <div id="tombolhijau" class="tombol" style="background-color: #77DD77;"></div>
+                                <div id="tombolkuning" class="tombol" style="background-color: #FDDD5C;" onclick="kuning()"></div>
+                                <span id="waktu" class="timestamp">8.00AM 12/12/12</span>
 
-                            </div>
-
-                            <div class="kotakactivity3">
-                                <div class="kotakkotak">
-                                    <form>
-                                        <input class="input" name="type" type="text" placeholder="On Going Activity">
-                                    </form>
-                                </div>
-                                <div class="tombol" style="background-color: #FF6961;"></div>
-                                <div class="tombol" style="background-color: #77DD77;"></div>
-                                <div class="tombol" style="background-color: #FDDD5C;"></div>
-                                <span class="timestamp">8.00AM 12/12/12</span>
-
-                            </div>
+                            </div>-->
                         </div>
                     </div>
+
 
                 </div>
             </div>
@@ -63,4 +65,5 @@
     </div>
     <script src="indexdua.js"></script>
 </body>
+
 </html>
